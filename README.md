@@ -1,7 +1,19 @@
 snipMate & UltiSnip Snippets
 ============================
 
-[![Build Status](https://travis-ci.org/honza/vim-snippets.svg)](https://travis-ci.org/honza/vim-snippets)
+This is a fork for personal customizations.
+
+Notes
+-----
+
+- Testing
+	- Symlinking .snippets file (for testing) into vim plugin's directory does not work. UltiSnip engine spits error, but plays nicely only with hard links.
+
+
+Original Readme
+===============
+
+<!-- [![Build Status](https://travis-ci.org/honza/vim-snippets.svg)](https://travis-ci.org/honza/vim-snippets) -->
 
 This repository contains snippets files for various programming languages.
 

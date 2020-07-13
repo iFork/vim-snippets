@@ -1,0 +1,63 @@
+# Git commit messages
+
+snippet feat "New feature" b
+FEAT(${1:scope}): ${VISUAL}$0
+endsnippet
+
+snippet fix "Bug fix" b
+FIX(${1:scope}): ${VISUAL}$0
+endsnippet
+
+snippet docs "Documentation" b
+DOCS(${1:scope}): ${VISUAL}$0
+endsnippet
+
+snippet style "Code style" b
+STYLE(${1:scope}): ${VISUAL}$0
+endsnippet
+
+snippet refactor "Code change" b
+REFACTOR(${1:scope}): ${VISUAL}$0
+endsnippet
+
+snippet perf "Performance" b
+PERF(${1:scope}): ${VISUAL}$0
+endsnippet
+
+snippet test "Tests" b
+TEST(${1:scope}): ${VISUAL}$0
+endsnippet
+
+snippet chore "Build, updates, documentation generation etc" b
+CHORE(${1:scope}): ${VISUAL}$0
+endsnippet
+
+snippet ci "CI" b
+CI(${1:scope}): ${VISUAL}$0
+endsnippet
+
+snippet revert "Revert" b
+REVERT(${1:scope}): ${VISUAL}$0
+endsnippet
+
+# More ideas / alternative styles
+
+# snippet chorela "create CHORE: large commit message"
+# CHORE: ${1:add build script}
+#
+# ${2:More detailed explanatory text}
+# See also: ${3:Trello Card or github issue #}
+# $0
+# endsnippet
+
+# Emoji sparkle 
+# "➕ Add dependency"
+# "✨ Add new"
+# "✅ Add test"
+# "🐛 Fix "
+# "🎉 Initial commit"
+# "💎 Release new version "
+# "🔥 Remove "
+# "➖ Remove dependency"
+# "⬆️  Update dependency"
+# "📝 Update "
