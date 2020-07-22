@@ -1,20 +1,23 @@
 # Functional components
-snippet rfc "react functional component" b
-import React, {useState} from "react"
 
-function ${1:`!p snip.rv = snip.basename`}(${2}){
-	return(
-		<div>
-			${3:<p>Body</p>}
-		</div>
-		)
-}
+# snippet rfc "react functional component" b
+# import React, {useState} from "react"
 
-export default $4`!p snip.rv = snip.basename`
-endsnippet
+# function ${1:`!p snip.rv = snip.basename`}(${2}){
+# 	return(
+# 		<div>
+# 			${3:<p>Body</p>}
+# 		</div>
+# 		)
+# }
+
+# export default $4`!p snip.rv = snip.basename`
+# endsnippet
+
 # React Hooks
+# Using string slicing instead of .title() to preserver camelCase 
 snippet useS "useState Hook" b
-const [${1}, set`!p snip.rv=t[1].title()`] = useState(${3:"${4}"})
+const [${1}, set`!p snip.rv=t[1][:1].upper() + t[1][1:]`] = useState(${3:"${4}"})
 endsnippet
 snippet useE "useEffect Hook" b
 useEffect(() => {
