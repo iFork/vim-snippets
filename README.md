@@ -8,6 +8,7 @@ Notes
 
 - Testing
 	- Symlinking .snippets file (for testing) into vim plugin's directory does not work. UltiSnip engine spits error, but plays nicely only with hard links.
+	- Do testing inside vim plugin directory (.vim/plugged/vim-snippets). 
 
 
 Original Readme
